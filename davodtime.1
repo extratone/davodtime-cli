@@ -5,13 +5,17 @@ davodtime \- A command-line tool to display time in various formats.
 
 .SH SYNOPSIS
 .B davodtime
-[\fButc\fR | \fIGMT\fR | \fITZ\fR]
+[\fButc\fR | \fIGMT\fR | \fITZ\fR | \fB-h\fR | \fB--help\fR]
 
 .SH DESCRIPTION
 .B davodtime
 is a command-line utility that displays the current time in various time zones or formats.
 
 .SH OPTIONS
+.TP
+.B -h, --help
+Displays this help message and exits.
+
 .TP
 .B utc
 Displays the current UTC (Coordinated Universal Time) in the format MMddYYYY-HHmmss.
@@ -35,6 +39,10 @@ Displays the current time in UTC.
 .TP
 .B davodtime pst
 Displays the current time in Pacific Standard Time.
+
+.TP
+.B davodtime -h
+Displays the help message.
 
 .SH AUTHOR
 Your Name <your.email@example.com>
